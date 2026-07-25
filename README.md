@@ -23,7 +23,7 @@
 
 ### 👨‍💻 About me
 
-I build and evaluate **Generative AI applications** — retrieval-augmented systems and agents that solve real, messy problems rather than demo-day toy problems. This summer I turned that into production experience as a **GenAI intern at Accenture**, and I'm now back to my **M.Tech in CSE at IIITM Gwalior (CGPA 9.6/10)**.
+I build and evaluate **Generative AI applications** — retrieval-augmented systems and agents that solve real, messy problems rather than demo-day toy problems. This summer I turned that into production experience as a **GenAI intern at Accenture**, and I'm now back to my **M.Tech in CSE at IIITM Gwalior (CGPA 9.47/10)**.
 
 I care about the hard parts: retrieval quality, grounding, evaluation, and shipping. I like taking a model from "works in a notebook" to "runs in a container behind an API."
 

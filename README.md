@@ -1,12 +1,6 @@
-<!--
-  READY TO COMMIT: create a repo named exactly "itz-puneet" (same as your username),
-  save this file inside it as README.md, and push. GitHub renders it at the top of your profile.
-  Update the LeetCode / CodeChef URLs if your handles differ.
--->
-
 <h1 align="center">Hi, I'm Puneet Deshwani 👋</h1>
 
-<h3 align="center">GenAI Engineer in the making · RAG · LangChain · Agentic AI</h3>
+<h3 align="center">Software engineer · backend &amp; retrieval systems · open source</h3>
 
 <p align="center">
   <b>Ex-GenAI Intern @ Accenture · AEH (Summer 2026)</b> &nbsp;•&nbsp; <b>M.Tech CSE @ IIITM Gwalior</b>
@@ -15,15 +9,14 @@
 <p align="center">
   <a href="https://linkedin.com/in/puneet-deshwani"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:puneet29.pro@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://leetcode.com/u/user0241XW/"><img src="https://img.shields.io/badge/LeetCode-1508-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-  <a href="https://www.codechef.com/users/itz_puneet"><img src="https://img.shields.io/badge/CodeChef-2%E2%98%85-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
+  <a href="https://leetcode.com/u/user0241XW/"><img src="https://img.shields.io/badge/LeetCode-1831-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
 </p>
 
 ---
 
 ### 👨‍💻 About me
 
-I build and evaluate **Generative AI applications** — retrieval-augmented systems and agents that solve real, messy problems rather than demo-day toy problems. This summer I turned that into production experience as a **GenAI intern at Accenture**, and I'm now back to my **M.Tech in CSE at IIITM Gwalior (CGPA 9.47/10)**.
+I build **backend and retrieval systems**, and I like the parts that have to hold up under a check: retrieval quality, data integrity, tests that fail when the bug comes back. Last summer I worked as a **GenAI intern at Accenture**, and I'm now back to my **M.Tech in CSE at ABV-IIITM Gwalior (CGPA 9.47/10)**, writing a thesis on label noise in software defect prediction..
 
 I care about the hard parts: retrieval quality, grounding, evaluation, and shipping. I like taking a model from "works in a notebook" to "runs in a container behind an API."
 
@@ -34,11 +27,14 @@ I care about the hard parts: retrieval quality, grounding, evaluation, and shipp
 - **Containerized services with Docker** and shipped to **Azure via CI/CD** alongside the DevOps team.
 - Built **Agentic AI** solutions to automate enterprise workflows end to end.
 
-### 🔭 What I'm building now
+### 🔭 What I'm working on now
 
-- Open-source versions of what I learned this summer — hybrid-retrieval RAG with a real **evaluation harness** (hit-rate / faithfulness).
-- **LangGraph-style agents** with tool use, and a growing prompt-engineering cookbook.
-- Digging deeper into LLM cost/latency trade-offs and retrieval evaluation while I finish my M.Tech.
+- **M.Tech thesis** — [quantifying SZZ label noise in just-in-time defect prediction](https://github.com/itz-puneet/thesis-later): six labelling variants scored against a human-annotated reference across 21 Apache projects (27,319 commits).
+- **Open-source contributions**, merged so far:
+  - [LadybugDB](https://github.com/LadybugDB/ladybug/pull/943) (C++ graph database) — gated a count fast path in the query optimizer that could run on storage formats it does not support, with optimizer tests.
+  - [Mnemosyne](https://github.com/mnemosyne-oss/mnemosyne/pull/930) (Python, SQLite) — made every memory delete path cascade its support rows, with regression tests.
+  - [Sentry JavaScript SDK](https://github.com/getsentry/sentry-javascript/pull/24031) — tests asserting prompt and response content stays off spans when GenAI recording is disabled.
+  - [stdlib-js](https://github.com/stdlib-js/stdlib/pull/14945) — moved the `ln` tests to ULP-based assertions and corrected two wrong expected values.
 
 ---
 
@@ -48,6 +44,7 @@ I care about the hard parts: retrieval quality, grounding, evaluation, and shipp
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -66,14 +63,14 @@ I care about the hard parts: retrieval quality, grounding, evaluation, and shipp
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 **Data & Vector Stores**
 
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
@@ -90,11 +87,14 @@ I care about the hard parts: retrieval quality, grounding, evaluation, and shipp
 
 ### 🚀 Featured Projects
 
-**🔎 [College Guidelines RAG Chatbot](https://github.com/itz-puneet/iiitm-rag-chatbot)** — `Python · LangChain · FAISS · Llama`
-A natural-language assistant that lets students query institute policies instead of scrolling PDFs. Ingested and chunked 23 pages of policy docs into FAISS, grounded Llama responses on retrieved context, and used prompt templates + context ranking to keep answers faithful to the source.
+**🔎 [ABV-IIITM RAG Chatbot](https://github.com/itz-puneet/iiitm-rag-chatbot)** — `Python · FAISS · BM25 · ONNX · Gemini · Streamlit` · [live demo](https://iiitm-chatbot.streamlit.app/)
+A public assistant that answers questions on institute policies, fees and curricula, citing the source PDF for every answer. Indexes 188 institutional PDFs; hybrid search fuses FAISS vectors and BM25 keywords with Reciprocal Rank Fusion, with an optional cross-encoder reranker. Embedding and reranking run on ONNX, so it needs no GPU or PyTorch.
 
-**🎮 [E-Fantasy — Esports Fantasy Gaming App](https://github.com/itz-puneet/e-fantasy-app)** — `React Native · FastAPI · Python`
-A cross-platform app where users draft 5-player fantasy esports teams with virtual tokens (no real-money gambling). FastAPI REST backend with JWT auth and strict server-side validation, a scoring engine mapping in-game stats to fantasy points, and near real-time leaderboards.
+**🎮 [E-Fantasy — Esports Fantasy App](https://github.com/itz-puneet/e-fantasy-app)** — `React Native (Expo) · TypeScript · Supabase (PostgreSQL)`
+A cross-platform app where users draft fantasy esports rosters and join contests with virtual tokens (no real-money gambling). Game and wallet rules are enforced in the database: Row-Level Security on all 12 tables, PL/pgSQL functions for every wallet and contest write, and contest entry as a single row-locked transaction.
+
+**📊 [M.Tech Thesis — Label Noise in Just-In-Time Defect Prediction](https://github.com/itz-puneet/thesis-later)** — `Python · scikit-learn · GitHub Actions`
+Measures how mislabelled bug data distorts commit-level defect prediction across 21 Apache projects, with the experiment pipeline running in CI behind a gate that rejects stale labels.
 
 **📝 [Take-Notes](https://github.com/itz-puneet/Take-Notes)** — `JavaScript`
 A lightweight notes app for quick capture and organization — a clean vanilla-JS build focused on a fast, no-friction UX.
@@ -116,8 +116,10 @@ A lightweight notes app for quick capture and organization — a clean vanilla-J
 
 ### 🏆 Achievements
 
+- 🧠 **LeetCode contest rating 1831** (top 7.16%) · **235+ DSA problems** solved in C++
 - 🌍 **Global Rank 3054** — TCS CodeVita Season 12
-- 🧠 **200+ DSA problems** solved · LeetCode rating **1508** · CodeChef **2★ (peak 1541)**
+- 🏅 **Top 200** — Amazon ML Challenge 2026, in a team of four
+- 🎯 **GATE CS 2025** — AIR 4646
 - 🥈 **2nd place** in two consecutive university hackathons
 - 🎓 **Executive Secretary, CS Students Council** — ran 3+ technical forums and events for 400+ participants (2022–2025)
 
@@ -129,7 +131,7 @@ A lightweight notes app for quick capture and organization — a clean vanilla-J
   <a href="https://linkedin.com/in/puneet-deshwani">LinkedIn</a> &nbsp;•&nbsp;
   <a href="mailto:puneet29.pro@gmail.com">puneet29.pro@gmail.com</a> &nbsp;•&nbsp;
   <a href="https://leetcode.com/u/user0241XW/">LeetCode</a> &nbsp;•&nbsp;
-  <a href="https://www.codechef.com/users/itz_puneet">CodeChef</a>
+  <a href="https://www.codechef.com/users/afler">CodeChef</a>
 </p>
 
-<p align="center"><i>Open to conversations about GenAI, RAG, and agentic systems — reach out any time.</i></p>
+<p align="center"><i>Open to SDE, backend and GenAI engineering roles — reach out any time.</i></p>

@@ -16,9 +16,9 @@
 
 ### 👨‍💻 About me
 
-I build **backend and retrieval systems**, and I like the parts that have to hold up under a check: retrieval quality, data integrity, tests that fail when the bug comes back. This summer I interned at **Accenture** on a DevOps team, and I'm now back to my **M.Tech in CSE at ABV-IIITM Gwalior (CGPA 9.47/10)**, writing a thesis on label noise in software defect prediction..
+I build **backend and retrieval systems**, and I like the parts that have to hold up under a check: retrieval quality, data integrity, tests that fail when the bug comes back. This summer I interned at **Accenture** on a DevOps team, and I'm now back to my **M.Tech in CSE at ABV-IIITM Gwalior (CGPA 9.47/10)**, writing a thesis on label noise in software defect prediction.
 
-I care about the hard parts: retrieval quality, grounding, evaluation, and shipping. I like taking a model from "works in a notebook" to "runs in a container behind an API."
+I care about the hard parts: retrieval quality, grounding, evaluation, and shipping. I like taking a model from "works in a notebook" to a live app people can use.
 
 ### 🧑‍💻 Recently — Summer 2026 @ Accenture
 
@@ -73,12 +73,8 @@ I care about the hard parts: retrieval quality, grounding, evaluation, and shipp
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-**Cloud & DevOps**
+**Tools**
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Pipelines-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
